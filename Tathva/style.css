@@ -1,5 +1,5 @@
 /*See website with border enabled,it looks great and for mobile view please disable border and see,it looks great*/
-body{
+.body{
     /*border: 300px solid lightgray;*/
     font-family: sans-serif;
     font-style: normal;

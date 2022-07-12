@@ -1,0 +1,229 @@
+body{
+    /*border: 300px solid lightgray;*/
+    font-family: sans-serif;
+    font-style: normal;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top1{
+    display: flex;
+    padding-left: 50px;
+}
+.logo{
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+.top2{
+    display: flex;
+    list-style-type: none;  
+}
+.list1,.list2{
+    padding: 10px;
+    font-weight: 400;
+}
+.list2{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-right: 40px;
+    height: 24px;
+}
+.home1{
+    padding-left: 50px;
+    font-weight: bold;  
+}
+.home2{
+    font-size: 22px;
+    padding-left: 50px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: grey;
+}
+.home3{
+    color: white;
+    background-color: #2660FF;
+    padding: 10px;
+    margin-left: 50px;
+}
+.home4{
+    border: 0.5px solid black;
+    padding: 10px;
+    margin-left:20px;
+
+}
+.homeimage{
+    height: 250px;
+    width: 80%;
+    padding: 50px;
+    height: auto;
+}
+.box{
+    display: flex;
+    padding-bottom: 50px;
+}
+.right1{
+    width: 70%;
+    padding-left: 50px;
+}
+.right2{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-left: 50px;
+}
+.left{
+    padding-top: 15px;
+    padding-right: 100px;
+}
+.left1{
+    font-size: 250%;
+    font-weight: bolder;
+}
+.left2{
+    font-size: 70%;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.arrow{
+    height: 20px;
+    padding-top:32px ;
+    padding-left: 15px;
+}
+.photo{
+    display: flex;
+    padding-bottom: 100px;
+}
+.photor{
+    padding-left: 70px;
+}
+.photo4,.text4{
+    padding-left: 20px;
+}
+
+.reviews{
+    background-color: black;
+}
+.reviews1{
+    color: white;
+    padding-left: 30px;
+    font-weight: 200;
+    padding-top: 50px;
+}
+.reviews2{
+    display:inline-block;
+    vertical-align:top;
+    padding-left: 80px;
+}
+.circular{ 
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;     
+}
+.reviews3{
+    color: white;
+}
+.reviews4{
+    padding-left: 113px;
+}
+.checked {
+color: orange;
+}
+.reviews5{
+    text-align: left;
+    padding-left:80px ;
+    padding-right: 80px;  
+    color: grey;  
+    padding-bottom: 50px;
+}
+
+.faq1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.stark,.sundar{
+    display: flex;
+}
+.vector1{
+    width: 12px;
+    height: 6px;
+    color: black;
+    padding-top: 27px;
+    padding-left: 10px;
+}
+.faq2{
+    padding-left: 50px;
+}
+.faq3,.faq4{
+    padding-left: 50px;
+    color: grey;
+    padding-right: 50px;
+}
+.faq4{
+    padding-bottom: 50px;
+}
+
+.footer{
+    background-color: #F1F4FA;
+}
+.footer1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    color: #818B9E;
+}
+.logo1{
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+.l1{
+    list-style-type: none;
+}
+.lr{
+    padding: 7px;
+}
+.l2{
+    padding-top: 14px;
+    padding-left: 50px;
+}
+.insta,.fb,.twitter{
+    display: flex;
+    flex-direction: row;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: #818B9E;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+}
+.r11{
+    padding-right: 10px;
+}
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait){
+    .right1{
+        padding-right: 500px;
+    }
+}

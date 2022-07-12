@@ -1,3 +1,4 @@
+/*See website with border enabled,it looks great and for mobile view please disable border and see,it looks great*/
 body{
     /*border: 300px solid lightgray;*/
     font-family: sans-serif;
@@ -221,9 +222,43 @@ color: orange;
     padding-right: 10px;
 }
 
-@media screen and (max-device-width: 480px)
-and (orientation: portrait){
-    .right1{
-        padding-right: 500px;
+@media screen and (max-device-width: 320px)
+and (orientation: portrait) and (max-device-height:514px){
+    
+    .top2{
+        padding-left: 500px;
     }
+    .homeimage{
+        width: 200%;
+    }
+    .right1{
+        padding-right: 400px;
+    }
+
+    .photo1,.photo2,.photo3,.photo4{
+        height:60%;
+        width:auto;
+    }
+    .photo3,.text3{
+        padding-left: 60px;
+    }
+    .photo4,.text4{
+        padding-left: 180px;
+    }
+    .reviews{
+        width:300%;
+        margin-top: 200px;
+    }
+    .reviews2{
+        padding-left:50px;
+    }
+    .footer{
+        width:300%;
+    }
+    .foot2{
+        padding-left: 300px;
+    }
+
+    
+
 }
